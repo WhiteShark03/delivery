@@ -1,0 +1,40 @@
+.about {
+    padding: 140px  170px;
+    background: url(../images/about/about_bg.png) center/cover;
+    .text-box {
+        display: inline-block;
+        &__title {
+            color: $blue;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 55px; 
+            letter-spacing: 1.65px;
+            margin-bottom: 29px;
+        }
+        &__text {
+            max-width: 578px;
+            color: #546285;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0.36px;
+            margin-bottom: 47px;
+        }
+        &__btn {
+            display: inline-block;
+            background: url(/src/images/home/btn_back.png) center/cover;
+            color: #FFF;
+            padding: 20px 35px;
+            text-align: center;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px; 
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 30px;
+        }
+    }
+}

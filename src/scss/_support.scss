@@ -1,0 +1,48 @@
+.support {
+    .row {
+        &__col-6 {
+            width: 50%;
+        }
+        }
+        .text-box {
+            margin-left: 22px;
+            background: #35B8BE;
+            width: 666px;
+            height: 640px;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 60px;
+        }
+    &__title {
+        color: #FFF;
+        font-size: 53px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 60.5px;
+        letter-spacing: 1.65px;
+        margin-bottom: 52px;
+    &_dark {
+        color: #1B9097;
+        font-size: 51px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 60.5px;
+        letter-spacing: 1.65px;
+        }
+    }
+    &__order-btn {
+        padding: 19px 35px;
+
+        color: #35B8BE;
+        text-align: center;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; 
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+    }
+}
